@@ -1,0 +1,34 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  text-align: center;
+  margin: 20px;
+}
+
+
+.country-list {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.country-item {
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.country-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0; /* Optional: To round the top corners of the image */
+}
